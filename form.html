@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>form</title>
+        <style>
+          input[type=text]{
+            background: #d4ceed;
+          }
+          input[type=password]{
+            background: #d4ceed;
+          }
+          input[List=countries]{
+            background: #d4ceed;
+          }
+          body{
+            background: #a8c7ed;
+          }
+          body{
+            text-align: center;
+            font-size: 40px;
+            font-family: cursive;
+            font-family: sans serif;
+
+          }
+          input[placeholder]{
+            font-size: 30px;
+            color: #4318f0;
+          }
+          input:hover{
+            color: orange;
+          }
+          </style>
+      </head>
+<body>
+<Form>
+  <div> Please enter name and password.
+    <p> </p>
+    <input name="name" type="text" placeholder="name">
+    <input name="password" type="password" placeholder="password">
+  </div>
+
+<div>
+  <p></p>
+  <input name="Gender" type="radio" value="Male">Male
+  <input name="Gender" type="radio" value="Female">Female
+<p> </p>
+  <input name="Age" type="number" value="0-50">Age
+
+</div>
+
+<div>
+  <p> Nationality: </p>
+  <input name="country" List="countries" placeholder="Country">
+    <datalist id="countries">
+      <option value="Afghanistan">
+      <option value="Albania">
+      <option value="United States">
+      <option value="United Kingdom">
+      <option value="Pakistan">
+      <option value="India">
+</div>
+</form>
+</body>
+</html>
